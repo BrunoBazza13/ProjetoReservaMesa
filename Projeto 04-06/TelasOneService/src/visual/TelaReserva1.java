@@ -57,7 +57,7 @@ public class TelaReserva1 extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        btnProsseguir = new javax.swing.JButton();
         btnVoltar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -256,13 +256,13 @@ public class TelaReserva1 extends javax.swing.JFrame {
             .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
         );
 
-        jButton1.setBackground(new java.awt.Color(0, 63, 69));
-        jButton1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Prosseguir");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        btnProsseguir.setBackground(new java.awt.Color(0, 63, 69));
+        btnProsseguir.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnProsseguir.setForeground(new java.awt.Color(255, 255, 255));
+        btnProsseguir.setText("Prosseguir");
+        btnProsseguir.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                btnProsseguirActionPerformed(evt);
             }
         });
 
@@ -299,7 +299,7 @@ public class TelaReserva1 extends javax.swing.JFrame {
                         .addComponent(jLabel2)
                         .addGap(203, 203, 203))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnProsseguir, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(417, 417, 417))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -315,7 +315,7 @@ public class TelaReserva1 extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(28, 28, 28)
-                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnProsseguir, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(383, 383, 383)
                         .addComponent(btnVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -336,7 +336,7 @@ public class TelaReserva1 extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btnProsseguirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProsseguirActionPerformed
         // TODO add your handling code here:
 
         try {
@@ -398,7 +398,7 @@ public class TelaReserva1 extends javax.swing.JFrame {
         }
 
 
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }//GEN-LAST:event_btnProsseguirActionPerformed
 
     private void comboBoxDiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_comboBoxDiaActionPerformed
         // TODO add your handling code here:
@@ -454,12 +454,12 @@ public class TelaReserva1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnProsseguir;
     private javax.swing.JButton btnVoltar;
     private javax.swing.JComboBox<String> comboBoxAno;
     private javax.swing.JComboBox<String> comboBoxDia;
     private javax.swing.JComboBox<String> comboBoxMes;
     private javax.swing.JComboBox<String> comboBoxQntPessoa;
-    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;

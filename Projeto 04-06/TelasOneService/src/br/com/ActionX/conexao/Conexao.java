@@ -23,7 +23,7 @@ public class Conexao {
 			String schema = "db_reserva";
 			String url = "jdbc:mysql://" + servidor + "/" + schema;
 			String usuario = "root";
-			String senha = "modi091325";
+			String senha = "130730";
 
 			conexao = (Connection) DriverManager.getConnection(url, usuario, senha);
 

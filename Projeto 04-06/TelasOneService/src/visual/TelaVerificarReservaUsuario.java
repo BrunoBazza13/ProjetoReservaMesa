@@ -54,7 +54,7 @@ public class TelaVerificarReservaUsuario extends javax.swing.JFrame {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         txtCPF = new javax.swing.JFormattedTextField();
-        jButton2 = new javax.swing.JButton();
+        btnVerificar = new javax.swing.JButton();
         btnVoltar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -154,13 +154,13 @@ public class TelaVerificarReservaUsuario extends javax.swing.JFrame {
                 .addContainerGap(94, Short.MAX_VALUE))
         );
 
-        jButton2.setBackground(new java.awt.Color(0, 63, 69));
-        jButton2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Verificar");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        btnVerificar.setBackground(new java.awt.Color(0, 63, 69));
+        btnVerificar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnVerificar.setForeground(new java.awt.Color(255, 255, 255));
+        btnVerificar.setText("Verificar");
+        btnVerificar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                btnVerificarActionPerformed(evt);
             }
         });
 
@@ -196,7 +196,7 @@ public class TelaVerificarReservaUsuario extends javax.swing.JFrame {
                         .addComponent(btnVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(22, 22, 22))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jButton2)
+                        .addComponent(btnVerificar)
                         .addGap(412, 412, 412))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -208,7 +208,7 @@ public class TelaVerificarReservaUsuario extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(47, 47, 47)
-                .addComponent(jButton2)
+                .addComponent(btnVerificar)
                 .addGap(14, 14, 14)
                 .addComponent(btnVoltar, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 20, Short.MAX_VALUE))
@@ -232,13 +232,13 @@ public class TelaVerificarReservaUsuario extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnVoltarActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void btnVerificarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerificarActionPerformed
         // TODO add your handling code here:
         retornaPorCPF(txtCPF.getText()); // Logger.getLogger(TelaConsultaReserva.class.getName()).log(Level.SEVERE, null, ex);
 
         
 
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_btnVerificarActionPerformed
 
     private void txtCPFActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCPFActionPerformed
         // TODO add your handling code here:
@@ -294,8 +294,8 @@ public static void main(String args[]) {
 }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnVerificar;
     private javax.swing.JButton btnVoltar;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

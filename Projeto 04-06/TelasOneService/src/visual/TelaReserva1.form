@@ -69,7 +69,7 @@
                           <EmptySpace min="-2" pref="203" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
-                          <Component id="jButton1" min="-2" pref="129" max="-2" attributes="0"/>
+                          <Component id="btnProsseguir" min="-2" pref="129" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="417" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -89,7 +89,7 @@
                       <Group type="102" attributes="0">
                           <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="jButton1" min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="btnProsseguir" min="-2" pref="37" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <EmptySpace min="-2" pref="383" max="-2" attributes="0"/>
@@ -529,7 +529,7 @@
             </Component>
           </SubComponents>
         </Container>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="btnProsseguir">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="45" green="3f" red="0" type="rgb"/>
@@ -543,7 +543,7 @@
             <Property name="text" type="java.lang.String" value="Prosseguir"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnProsseguirActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnVoltar">
